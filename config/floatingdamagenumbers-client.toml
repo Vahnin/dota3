@@ -1,0 +1,139 @@
+enabled = true
+remove_damage_indicator_hearts = true
+round_damage_values = false
+
+[animation]
+	# Default: 16
+	# Range: > 0
+	duration = 16
+
+	[animation.size]
+		# Default: 0.5
+		# Range: 0.0 ~ 3.4028234663852886E38
+		min = 4.0
+		# Default: 1.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		max = 6.0
+
+	[animation.brightness]
+		# Default: 0.85
+		# Range: 0.0 ~ 1.0
+		min = 0.85
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		max = 1.0
+
+	[animation.opacity]
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		min = 0.0
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		max = 1.0
+
+	[animation.speed]
+		# Default: 0.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		min = 0.0
+		# Default: 1.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		max = 1.0
+
+	#Colors can be Minecraft color name (GOLD), hex code (#FFAA00), or NONE to disable damage numbers for that type
+	[color.damage]
+		default = "GOLD"
+		"minecraft:fireworks" = "GOLD"
+		"magistuarmory:entity_additional" = "GOLD"
+		"dummmmmmy:critical" = "GOLD"
+		"minecraft:thorns" = "GOLD"
+		"spell_power:arcane" = "GOLD"
+		"irons_spellbooks:ender_magic" = "GOLD"
+		"minecraft:mob_attack" = "GOLD"
+		"minecraft:lightning_bolt" = "GOLD"
+		"minecraft:indirect_magic" = "GOLD"
+		"minecraft:outside_border" = "GOLD"
+		"minecraft:arrow" = "GOLD"
+		"minecraft:explosion" = "GOLD"
+		"minecraft:dry_out" = "GOLD"
+		"minecraft:wither" = "GOLD"
+		"supplementaries:slingshot" = "GOLD"
+		"minecraft:trident" = "GOLD"
+		"minecraft:unattributed_fireball" = "GOLD"
+		"neoforge:poison" = "GOLD"
+		"minecraft:falling_anvil" = "GOLD"
+		"supplementaries:cannonball" = "GOLD"
+		"supplementaries:player_cannonball" = "GOLD"
+		"spell_power:generic" = "GOLD"
+		"minecraft:fireball" = "GOLD"
+		"spell_power:frost" = "GOLD"
+		"minecraft:magic" = "GOLD"
+		"irons_spellbooks:eldritch_magic" = "GOLD"
+		"magistuarmory:additional" = "GOLD"
+		"irons_spellbooks:lightning_magic" = "GOLD"
+		"irons_spellbooks:blood_magic" = "GOLD"
+		"minecraft:sting" = "GOLD"
+		"minecraft:drown" = "GOLD"
+		"irons_spellbooks:ice_magic" = "GOLD"
+		"minecraft:generic_kill" = "GOLD"
+		"minecraft:player_explosion" = "GOLD"
+		"irons_spellbooks:holy_magic" = "GOLD"
+		"minecraft:mob_projectile" = "GOLD"
+		"magistuarmory:silver" = "GOLD"
+		"supplementaries:bamboo_spikes" = "GOLD"
+		"irons_spellbooks:fire_field" = "GOLD"
+		"minecraft:mob_attack_no_aggro" = "GOLD"
+		"magistuarmory:armor_piercing" = "GOLD"
+		"irons_spellbooks:blood_cauldron" = "GOLD"
+		"minecraft:sonic_boom" = "GOLD"
+		"irons_spellbooks:nature_magic" = "GOLD"
+		"minecraft:on_fire" = "GOLD"
+		"minecraft:starve" = "GOLD"
+		"minecraft:fall" = "GOLD"
+		"spell_power:fire" = "GOLD"
+		"irons_spellbooks:dragon_breath_pool" = "GOLD"
+		"supplementaries:xp_extracting" = "GOLD"
+		"dummmmmmy:true" = "GOLD"
+		"minecraft:sweet_berry_bush" = "GOLD"
+		"minecraft:player_attack" = "GOLD"
+		"minecraft:wind_charge" = "GOLD"
+		"spell_power:lightning" = "GOLD"
+		"minecraft:bad_respawn_point" = "GOLD"
+		"spell_power:soul" = "GOLD"
+		"minecraft:dragon_breath" = "GOLD"
+		"minecraft:hot_floor" = "GOLD"
+		"minecraft:in_wall" = "GOLD"
+		"irons_spellbooks:evocation_magic" = "GOLD"
+		"minecraft:generic" = "GOLD"
+		"minecraft:wither_skull" = "GOLD"
+		"irons_spellbooks:poison_cloud" = "GOLD"
+		"minecraft:campfire" = "GOLD"
+		"minecraft:cramming" = "GOLD"
+		"minecraft:stalagmite" = "GOLD"
+		"minecraft:lava" = "GOLD"
+		"minecraft:freeze" = "GOLD"
+		"supplementaries:player_bomb_explosion" = "GOLD"
+		"minecraft:in_fire" = "GOLD"
+		"irons_spellbooks:fire_magic" = "GOLD"
+		"minecraft:spit" = "GOLD"
+		"irons_spellbooks:heartstop" = "GOLD"
+		"supplementaries:bomb_explosion" = "GOLD"
+		"minecraft:thrown" = "GOLD"
+		"minecraft:cactus" = "GOLD"
+		"minecraft:falling_block" = "GOLD"
+		"amendments:boiling" = "GOLD"
+		"spell_power:healing" = "GOLD"
+		"minecraft:out_of_world" = "GOLD"
+		"minecraft:falling_stalactite" = "GOLD"
+		"minecraft:fly_into_wall" = "GOLD"
+		"deadly_weapons:curse" = "GOLD"
+		"deadly_weapons:general" = "GOLD"
+		"deadly_weapons:netherwart" = "GOLD"
+		"deadly_weapons:bliss" = "GOLD"
+		"deadly_weapons:extreme_poison_damage" = "GOLD"
+		"deadly_weapons:trample" = "GOLD"
+		"deadly_weapons:parried" = "GOLD"
+		"deadly_weapons:implosion" = "GOLD"
+		"deadly_weapons:disintegration" = "GOLD"
+
+	[color.heal]
+		default = "DARK_GREEN"

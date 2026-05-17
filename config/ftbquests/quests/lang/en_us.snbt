@@ -1,0 +1,11 @@
+{
+	chapter.087108F3C2DD6EE4.title: "test0"
+	quest.74A555A3A5B6154A.quest_desc: [
+		"desk"
+		"{image:supplementaries:block/awnings/awning_brown_side width:100 height:100 align:center}"
+		"{@pagebreak}"
+		"(new page placeholder text)"
+	]
+	quest.74A555A3A5B6154A.quest_subtitle: "subtitle"
+	quest.74A555A3A5B6154A.title: "title"
+}

@@ -1,0 +1,4 @@
+#Множитель урона для всего оружия мода
+# Default: 1.0
+# Range: 0.1 ~ 10.0
+globalDamageModifier = 1.0
